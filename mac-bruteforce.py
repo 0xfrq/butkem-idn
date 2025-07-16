@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-
 import subprocess
 import sys
 import os
 
-USER_WORDLIST = "user.txt"
-PASS_WORDLIST = "pass.txt"
+USER_WORDLIST = "user.txt" #changehere
+PASS_WORDLIST = "pass.txt" #changehere
 
 def main():
     if len(sys.argv) != 2:
